@@ -1,12 +1,12 @@
-export { Page };
+export { Page }
 // import { ProgressSpinner } from 'primereact/progressspinner';
-import { Badge } from 'primereact/badge';
+import { Badge } from 'primereact/badge'
 
 function Page() {
-    return (
-        <>
-            <Badge />
-            {/* <ProgressSpinner /> */}
-        </>
-    );
+  return (
+    <>
+      <Badge />
+      {/* <ProgressSpinner /> */}
+    </>
+  )
 }
